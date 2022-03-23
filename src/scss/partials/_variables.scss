@@ -1,13 +1,31 @@
 $prefix: "../../";
-$bg__error-img: $prefix+"img/error.jpg";
+$bg__blog-img: $prefix+"img/blog/blog-s1.jpg";
 $bg__comingsoon-img: $prefix+"img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__index-img: $prefix+"img/index/index-s1.jpg";
+$bg__login-img: $prefix+"img/login/login-s1.jpg";
 $bg__privacy-img: $prefix+"img/privacy.jpg";
+$bg__store-img: $prefix+"img/store/store-s1.jpg";
 $bg__init:
-    "error",
+    "blog",
     "comingsoon",
-    "privacy";
+    "contact",
+    "error",
+    "index",
+    "login",
+    "privacy",
+    "store";
 $classes_init:
-    $bg__error-img,
+    $bg__blog-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__login-img,
+    $bg__privacy-img,
+    $bg__store-img;
 $footer-height: 57px;
+$text__shadow: 1px 1px 3px #333;
