@@ -5,7 +5,10 @@
         text-shadow: $text__shadow;
     }
 }
-
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Creepster";
+    letter-spacing: 1px;
+}
 nav{
     z-index: 10;
 }
@@ -15,6 +18,11 @@ textarea{
 }
 
 @media all and (max-width:767px){
+    .blog{
+        &-s1{
+            background-position-x: right!important;
+        }
+    }
     .blog,.contact,.index{
         &-s1{
             *{
