@@ -74,13 +74,13 @@ class ContactForm extends Component {
 
     render() {
         return (
-            <Container fluid className={"contact-s2 align-items-center p-0 py-5  d-flex minh-50vh " + this.props.classExt}>
+            <Container fluid className={"contact-s2 align-items-center p-0 py-5 border-top border-danger d-flex minh-50vh " + this.props.classExt}>
                 <Row className="mx-auto text-center w-100">
                     <Col xs={11} md={6} className="mx-auto p-0 d-flex align-items-center">
-                        <Form className="text-start w-100 border border-secondary p-4 rounded bg-dark opacity-9 shadow text-secondary fw-bold"
+                        <Form className="text-start w-100 border border-dark p-4 rounded bg-danger opacity-9 shadow text-dark fw-bold"
                             autoComplete="off"
                             method="POST">
-                            <div className="border-bottom border-secondary mb-4">
+                            <div className="border-bottom border-dark mb-4">
                                 <p className="font-weight-bold mb-1">
                                     Contact online
                                 </p>
@@ -141,15 +141,15 @@ class ContactForm extends Component {
                                     required/>
                             </Form.Group>
                             <div className="w-100 text-end mt-3">
-                                <Button variant="outline-light"
+                                <Button variant="outline-dark"
                                     type="reset"
                                     onClick={this.clearForm.bind(this)}
-                                    className="mx-1 rounded-pill border-secondary text-secondary">
+                                    className="mx-1 rounded-pill">
                                     Clear
                                 </Button>
                                 <Button
-                                    variant="outline-light"
-                                    className="mx-1 rounded-pill border-secondary text-secondary"
+                                    variant="outline-dark"
+                                    className="mx-1 rounded-pill"
                                     onClick={this.sendForm.bind(this)}>
                                     Send
                                 </Button>
